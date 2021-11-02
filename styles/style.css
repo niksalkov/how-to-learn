@@ -19,6 +19,28 @@
   margin: 0 auto;
 }
 
+.table__cell {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  margin-top: 60px;
+  list-style: none;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -49,7 +71,7 @@
   z-index: 1;
   line-height: 96px;
   font-size: 102px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .header__subtitle {
@@ -77,6 +99,7 @@
   position: absolute;
   background-image: url(/images/header-image.png);
   background-size: cover;
+  z-index: 1;
 }
 
 .header__square-pic {
@@ -86,7 +109,6 @@
   background-color: #2f80ed;
   top: 64px;
   right: 0;
-  z-index: -1;
 }
 
 .description {
@@ -128,7 +150,7 @@
 }
 
 .two-columns__paragraph .two-columns__span-accent {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .digits {
@@ -140,7 +162,7 @@
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .section-subtitle {
   width: 60%;
@@ -149,28 +171,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.table__cell {
-  margin: 0;
-  padding: 0;
-  width: 250px;
-  margin-top: 60px;
-}
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bolder;
-  list-style: none;
-}
-
-.table__text {
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  list-style: none;
 }
 
 .feynman {
@@ -190,7 +190,7 @@
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .feynman__subtitle {
@@ -243,8 +243,6 @@
 }
 
 .table__cell_theme_dark {
-  margin: 0;
-  padding: 0;
   width: 200px;
   color: white;
   margin-right: 0;
@@ -255,8 +253,7 @@
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: bolder;
-  list-style: none;
+  font-weight: bold;
 }
 
 .table__text_theme_dark {
@@ -264,7 +261,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
 }
 .kaufman__triangle {
   background-image: url(/images/kaufman-triangle.svg);
@@ -313,7 +309,7 @@
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: bold;
   padding-bottom: 20px;
 }
 
