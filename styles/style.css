@@ -6,10 +6,26 @@
 }
 
 .logo {
-  width: 182px;
-  height: 32px;
+  width: 183px;
 }
 
+.section-title {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 20px auto 0;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
 
 .table {
   display: flex;
@@ -35,6 +51,7 @@
 }
 
 .table__text {
+  margin: 0;
   margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -52,11 +69,10 @@
 
 .logo_place_header {
   background-image: url(/images/logo_place_header.svg);
-  width: 182px;
   height: 32px;
   position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
+  top: 30px;
+  left: 64px;
   z-index: 1;
 }
 
@@ -86,6 +102,7 @@
   font-weight: normal;
   z-index: 1;
 }
+
 .header__link {
   color: #2f80ed;
   text-decoration: none;
@@ -149,28 +166,12 @@
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph .two-columns__span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
 
 .digits {
   padding: 100px 0;
-}
-.section-title {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-}
-.section-subtitle {
-  width: 60%;
-  margin: 20px auto 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .feynman {
@@ -203,7 +204,7 @@
 
 .feynman__link {
   position: absolute;
-  height: 50%;
+  top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
@@ -220,25 +221,15 @@
 }
 
 .section-title_theme_dark {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
   padding: 0 0 20px 0;
   color: #fff;
   background-color: #1f1f1f;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bolder;
 }
 
 .section-subtitle_theme_dark {
-  width: 60%;
   margin: 0 auto;
-  text-align: center;
   color: #fff;
   background-color: #1f1f1f;
-  line-height: 34px;
-  font-style: 24px;
   font-weight: normal;
 }
 
@@ -292,8 +283,8 @@
 }
 
 .logo_place_footer {
-  
   background-image: url(/images/logo_place_footer.svg);
+  height: 35px;
 }
 
 .footer__author {
