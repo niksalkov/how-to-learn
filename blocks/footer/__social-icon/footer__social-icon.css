@@ -3,4 +3,5 @@
     height: 16px;
     padding-right: 10px;
     align-items: flex-start;
+    align-self: center;
   }

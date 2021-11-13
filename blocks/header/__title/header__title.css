@@ -1,6 +1,7 @@
 .header__title {
     display: flex;
     align-items: center;
+    align-self: center;
     width: 730px;
     margin: 0;
     padding: 0;
